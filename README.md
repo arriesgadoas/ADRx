@@ -1,6 +1,21 @@
-# LoRaWAN_simulator
+# ADRx
 
-The simulator allows modelling a multi-GW LoRaWAN GW and has been collbaboratively developed by Riccardo Marini (University of Bologna, Italy), Konstantin Mikhaylov(University of Oulu, Finland), Gianni Pasolini(University of Bologna, Italy) and Chiara Buratti(University of Bologna, Italy). The simulator has been partially used and  its design and evaluation are further detailed in the paper: 
+This is based on the works of  
 Marini, R.; Mikhaylov, K.; Pasolini, G.; Buratti, C. LoRaWANSim: A Flexible Simulator for LoRaWAN Networks. Sensors 2021, 21, 695. https://doi.org/10.3390/s21030695 
 which is openly avialable from: https://www.mdpi.com/1424-8220/21/3/695/htm
-We would appreciate a reference to this paper in your paper, should you find this simulator useful for your studies (&also for tracking reasons) :)
+
+TO use: 
+
+select mode:
+  
+  mode 1: simultor uses LoRaWAN's ADR
+  
+  mdde 2: simulator uses ADRx
+  
+  mode 3: no ADR, same SF for al EDs
+  
+  mode 0: use this to gather date per cell. creates annulus regions described in input.csv
+
+edit input csv:
+
+  edit R, S, P, C, N.
