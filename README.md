@@ -6,13 +6,13 @@ which is openly avialable from: https://www.mdpi.com/1424-8220/21/3/695/htm
 
 Step 1: select mode
   
-  mode 1: simulator uses LoRaWAN's ADR
+ ---- mode 1: simulator uses LoRaWAN's ADR
   
-  mdde 2: simulator uses ADRx
+ ---- mdde 2: simulator uses ADRx
   
-  mode 3: no ADR, same SF for al EDs
+ ---- mode 3: no ADR, same SF for al EDs
   
-  mode 0: use this to gather date per cell. creates annulus regions described in input.csv
+ ---- mode 0: use this to gather data per cell. creates annulus regions described in input.csv
 
 Step 2: edit input csv
 
