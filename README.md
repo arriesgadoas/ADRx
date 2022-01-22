@@ -16,4 +16,4 @@ Step 1: select mode
 
 Step 2: edit input csv
 
-  edit R, S, P, C, N.
+ ---- edit R, S, P, C, N.
