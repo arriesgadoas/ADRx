@@ -6,7 +6,9 @@ nodes = (nodes-125)/75;
 for i = 1:length(radius)
     syms r s n;
     
+    %model equation goes here
     out = expand(0.39+(-0.20*r)+(-0.18*s)+(-0.07*n)+(-0.09*r*r)+(0.18*r*s)+(-0.14*s*s)+(0.11*n*n));
+    
     r = radius(i);
     n = nodes(i);
     out=subs(out);
