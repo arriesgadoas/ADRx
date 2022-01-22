@@ -1,5 +1,5 @@
 # ADRx
-This MATLAB-based LoRAWAN simulator is derived from LoRaWANSim https://github.com/kvmikhayl/LoRaWAN_simulator.
+This MATLAB-based LoRAWAN simulator is derived from LoRaWANSim https://github.com/kvmikhayl/LoRaWAN_simulator.\n
 
 To use:
 Step1: Select simulation mode
